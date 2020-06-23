@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+    <meta charset="UTF-8" />
+    <title>Basic Sprite</title>
+    <script src="lib/extendjs/extend.min.js"></script>
+    <script src="lib/animation/requestAnimationFramePolyfill.js"></script>
+    <script src="lib/input/keyboard.js"></script>
+    <script src="lib/net/AJAX.js"></script>
+    <script src="lib/media/SoundManager.js"></script>
+	  <script src="lib/media/CanvasFilters.js"></script>
+    <script src="Game.js"></script>
+    <script src="SpriteSheet.js"></script>
+    <script src="Entity.js"></script>
+    <script src="Hero.js"></script>
+    <script src="ZombieBoy.js"></script>
+    <script src="ZombieGirl.js"></script>
+    <script src="CowGirl.js"></script>
+    <script src="NinjaBoy.js"></script>
+    <script src="NinjaGirl.js"></script>
+    <script src="BalaEsq.js"></script>
+    <script src="BalaDrt.js"></script>
+    <script src="Fogo.js"></script>
+    <script src="Plataforma.js"></script>
+    <script src="TiledMap.js"></script>
+    <script src="Camera.js"></script>
+    <script src="GameWorld.js"></script>
+    <script src="Component.js"></script>
+    <script src="GameTimer.js"></script>   
+    <style>
+      body{margin:0; padding:0; background-color:#362201; z-index:5; }
+        #canvasBack{position:absolute; top:0px;left:0px;z-index:10;}
+			  #canvasEnt{position:absolute; top:0px;left:0px;z-index:20;}
+			  #canvasComp{position:absolute; top:0px;left:0px;z-index:30;}
+    </style>
+  </head>
+  <body>
+    <canvas id="canvasBack" width="550" height="400"></canvas>
+	  <canvas id="canvasEnt" width="550" height="400"></canvas>
+	  <canvas id="canvasComp" width="550" height="400"></canvas>
+  </body>
+</html> 
